@@ -1,0 +1,64 @@
+/* fonts and colors */
+
+body {
+  font-family: Courier;
+  font-size: 15px;
+  color: rgb(20, 20, 20);
+  /*background-color: rgb(230, 230, 230);*/
+  background-image: url("Images/texture.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  display: flex;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+img {
+  height: 50px;
+}
+
+a {
+  text-decoration: none;
+  font-family: Courier;
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.content {
+  background-color: white;
+  padding: 4px;
+  margin: 10px;
+  border-radius: 2px;
+  box-shadow: 1px 1px 3px rgb(0, 0, 0, 0.3)
+}
+
+main{
+  font-family: Courier;
+  font-size: 15px;
+  color: rgb(20, 20, 20);
+  background-color: rgb(230, 230, 230);
+}
+
+.session-titel {
+  border-radius: 2px;
+  box-shadow: 1px 1px 3px rgb(0, 0, 0, 0.3);
+  margin: 10px;
+}
+
+.session-container {
+  border-radius: 2px;
+  box-shadow: 1px 1px 3px rgb(0, 0, 0, 0.3);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}

@@ -5,7 +5,7 @@ body {
   font-size: 15px;
   color: rgb(20, 20, 20);
   /*background-color: rgb(230, 230, 230);*/
-  background-image: url("Images/texture.jpg");
+  background-image: url("Images/texture1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
